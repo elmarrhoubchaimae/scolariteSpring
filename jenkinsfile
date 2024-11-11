@@ -4,7 +4,7 @@ pipeline {
     environment {
         SONAR_PROJECT_KEY = 'elmarrhoubchaimae_scolariteSpring'
         SONAR_ORGANIZATION = 'elmarrhoubchaimae'
-        SONAR_TOKEN = credentials('Sonartoken')
+        SONAR_TOKEN = credentials('SonarToken')
     }
 
     stages {
